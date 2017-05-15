@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#000000",
+        "flex": 1,
+      },
+      Object {
+        "backgroundColor": "#239a05",
+      },
+    ]
+  }
+>
+  <ScrollViewMock
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "padding": 20,
+        },
+      ]
+    }
+  />
+</View>
+`;

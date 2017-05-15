@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#000000",
+        "flex": 1,
+      },
+      Object {
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <AdMobBanner
+    adUnitID="ca-app-pub-XXX/XXX"
+    adViewDidReceiveAd={[Function]}
+    adViewWillLeaveApplication={[Function]}
+    bannerSize="smartBannerPortrait"
+    didFailToReceiveAdWithError={[Function]}
+    style={
+      Object {
+        "height": 50,
+      }
+    }
+  />
+  <Child
+    navigation={
+      Object {
+        "navigate": [Function],
+        "state": Object {
+          "routeName": "home",
+        },
+      }
+    }
+    screenProps={
+      Object {
+        "config": Object {
+          "adBannerAPI": Object {
+            "android": "ca-app-pub-XXX/XXX",
+            "ios": "ca-app-pub-XXX/XXX",
+          },
+          "animations": Object {
+            "delayBetween": 60,
+            "enabled": true,
+            "maxDelay": 1000,
+          },
+          "imageFallBack": "https://goo.gl/MrJGPK",
+          "imageURL": "https://www.reddit.com/",
+          "productPainsURL": "https://productpains.com/",
+          "pushNotifications": Object {
+            "apiKey": "XXX",
+            "senderID": "XXX",
+            "url": "",
+          },
+          "url": "https://www.reddit.com",
+        },
+        "device": Object {
+          "platform": "ios",
+        },
+        "locale": Object {
+          "errors": Object {},
+          "pages": Object {},
+        },
+        "locales": Object {
+          "availableLanguages": Array [
+            "en",
+          ],
+          "locales": Object {
+            "en": Object {
+              "errors": Object {},
+              "pages": Object {},
+            },
+          },
+          "selectedLanguage": "en",
+        },
+        "ui": Object {},
+      }
+    }
+    test="test"
+  />
+  <StatusBar
+    animated={false}
+    barStyle="light-content"
+    hidden={true}
+    showHideTransition="fade"
+  />
+</View>
+`;

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#132d42",
+        "flex": 1,
+      },
+      Object {
+        "flex": 1,
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <ScrollViewMock
+    contentContainerStyle={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 40,
+            "fontWeight": "bold",
+          },
+          Object {
+            "color": "#FFAE00",
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#6FD8FF",
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#FF7808",
+          },
+        ]
+      }
+    >
+      The Intro
+    </Text>
+    <Icon
+      allowFontScaling={false}
+      name="globe"
+      size={12}
+      style={
+        Object {
+          "color": "hsl(206.79999999999995, 55.3%, 21.7%)",
+          "fontSize": 100,
+          "marginTop": 20,
+        }
+      }
+    />
+    <TouchableOpacity
+      activeOpacity={0.2}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "borderColor": "#ffffff",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "color": "#ffffff",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": 20,
+              "marginTop": 20,
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 30,
+              "paddingTop": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          name="reddit-alien"
+          size={12}
+          style={
+            Object {
+              "fontSize": 20,
+              "right": -4,
+            }
+          }
+        />
+          
+        Click Me
+      </Text>
+    </TouchableOpacity>
+  </ScrollViewMock>
+</View>
+`;

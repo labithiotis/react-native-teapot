@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image should render correctly 1`] = `
+<ImageProgress
+  indicator={[Function]}
+  indicatorProps={
+    Object {
+      "color": "#3262a6",
+      "size": 60,
+    }
+  }
+  onError={[Function]}
+  source={1}
+  sourceFallBack={1}
+  threshold={300}
+/>
+`;

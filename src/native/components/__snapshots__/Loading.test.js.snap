@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "padding": 30,
+      },
+      undefined,
+    ]
+  }
+>
+  <AnimatedComponent
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <Icon
+      allowFontScaling={false}
+      name="refresh"
+      size={12}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#3262a6",
+            "fontSize": 60,
+            "opacity": 0.4,
+            "padding": 20,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    />
+  </AnimatedComponent>
+  <AnimatedComponent
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#3262a6",
+          "fontSize": 16,
+          "textAlign": "center",
+        },
+        undefined,
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    Loading...
+  </AnimatedComponent>
+</View>
+`;

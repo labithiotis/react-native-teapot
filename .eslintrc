@@ -1,0 +1,77 @@
+{
+  "extends": [
+    "semistandard",
+    "plugin:flowtype/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "flowtype",
+    "import",
+    "jest"
+  ],
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "globals": {
+    "defaultProps": true
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "quotes": [1, "single"],
+    "no-undef": 2,
+    "global-strict": 0,
+    "import/no-duplicates": 2,
+    "no-duplicate-imports": 0,
+    "no-extra-semi": 2,
+    "no-underscore-dangle": 0,
+    "no-console": 2,
+    "no-unused-vars": 2,
+    "no-trailing-spaces": [2, { "skipBlankLines": true }],
+    "no-unreachable": 2,
+    "no-alert": 2,
+    "no-empty": 2,
+    "space-before-function-paren": 0,
+    "no-warning-comments": [1, {
+      "terms": ["todo", "fixme"],
+      "location": "anywhere"
+    }],
+    "generator-star-spacing": [2,  {"before": false, "after": true}],
+    "yield-star-spacing": [2, "after"],
+    "object-curly-spacing": [2, "always"],
+    "dot-notation": 2,
+    "valid-typeof": 2,
+    "jsx-quotes": [2, "prefer-double"],
+    "arrow-parens": [2, "as-needed"],
+    "react/display-name": 0,
+    "react/jsx-curly-spacing": [2, "never"],
+    "react/jsx-tag-spacing": [2, {
+      "closingSlash": "never",
+      "beforeSelfClosing": "always",
+      "afterOpening": "never"
+    }],
+    "react/jsx-no-undef": 2,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-wrap-multilines": 2,
+    "react/no-did-mount-set-state": 2,
+    "react/no-did-update-set-state": 2,
+    "react/no-multi-comp": 0,
+    "react/no-unknown-property": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/self-closing-comp": 2
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}
